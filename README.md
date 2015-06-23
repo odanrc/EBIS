@@ -2,6 +2,8 @@
 
 EBIS is a system to allow people with physical disabilities use computers. It emulates mouse and keyboard commands with facial gestures, such as blinking and eye movement. It is based on the article "Monocular Gaze Tracking System for Disabled People Assistance". If you use this system, please cite  (TODO cite).
 
+The system is provided AS IS under the MIT License.
+
 ## SYSTEM REQUIREMENTS
 
 Currently, only Linux is supported. The system uses OpenCV for the algorithms, and SDL 2.0 and X11 for command generation.
@@ -14,7 +16,14 @@ There's also a Pong game implemented, which can be played with the eyes by calli
 
 ## MODES
 
-todo
+###Display
+Normal use mode. The mouse does not move, and is not visible, in order to allow user to see the screen contents.
+
+###Left Click Mode
+Left clicks are performed at this mode. The magnification steps are performed, and after each click command, the screen is magnified, until there's enough click precision. i.e., for a 3x3 grid 6 magnifications are necessary before a click is emitted.
+
+### Scroll Mode
+Screen scrolling is activated once the mouse achieved a certain threshold on the screen. i.e., if the focal point is at 20% of the screen height, an upwards scrolling starts, and if it is at 80% of the screen height, downward scrolling happens. 
 
 ## TODO
 
@@ -30,3 +39,4 @@ The system still lacks a lot of functionality, as it does not fully allow human-
 - Add Alt+Tab Mode.
 - Improve desktop screenshot acquisition
 - Create and Test Windows Version.
+- Improve Makefile
