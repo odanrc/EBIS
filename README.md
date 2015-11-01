@@ -1,6 +1,8 @@
 # EBIS - Eye Based Independance System
 
-EBIS is a system to allow people with physical disabilities use computers. It emulates mouse and keyboard commands with facial gestures, such as blinking and eye movement. It is based on the article "Monocular Gaze Tracking System for Disabled People Assistance". If you use this system, please cite  (TODO cite).
+EBIS is a system to allow people with physical disabilities use computers. It emulates mouse and keyboard commands with facial gestures, such as blinking and eye movement. It is based on the article "Monocular Gaze Tracking System for Disabled People Assistance". If you use this system, please cite 
+
+Carvalho, Daniel Rodrigues, and Maurcio Pamplona Segundo. "Monocular Gaze Tracking System for Disabled People Assistance."
 
 The system is provided AS IS under the MIT License.
 
